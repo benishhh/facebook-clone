@@ -35,10 +35,10 @@
 }
 
 .post-interaction-icon {
-  width: 26px;
-  height: 26px;
+  width: 1.5em;
+  height: 1.5em;
   cursor: pointer;
-  margin-right: 20px;
+  margin-right: 0.5em;
 }
 
 .post-interaction-like,
@@ -48,7 +48,7 @@
   flex-direction: row;
   align-items: center;
   justify-content: center;
-  padding: 5px 20px;
+  padding: 5px 0;
   flex: 1;
   cursor: pointer;
 }
@@ -79,9 +79,10 @@
 .post-interaction-container {
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
   padding: 2px 12px;
+  flex-wrap: wrap;
 }
 
 
@@ -169,7 +170,7 @@
   grid-auto-flow: row;
   align-items: center;
   justify-content: space-between;
-  margin-left: 50px;
+  margin-left: 2em;
   padding-bottom: 10px;
   padding-right: 15px;
 }

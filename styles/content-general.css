@@ -21,6 +21,19 @@
   gap: 20px;
 }
 
+@media (max-width: 1200px) {
+  .sidebar {
+    display: none;
+  }
+  .contact-list {
+    display: none;
+  }
+  .content {
+    margin-left: 80px;
+    margin-right: 80px;
+  }
+}
+
 .contact-list {
   position: fixed;
   right: 0;
