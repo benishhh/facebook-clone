@@ -15,6 +15,20 @@
   z-index: 1000;
 }
 
+@media (max-width: 830px) {
+  .navbar .middle-section {
+    display: none;
+  }
+  .navbar .left-section {
+    flex: 1;
+    justify-content: center;
+  }
+  .navbar .right-section {
+    flex: 1;
+    justify-content: center;
+  }
+}
+
 .facebook-logo-container {
   cursor: pointer;
 }
