@@ -1,0 +1,94 @@
+.contact-list-title-section {
+  color: rgb(201, 201, 201);
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 12px;
+  margin-top: 0;
+}
+
+.birthday-text {
+  color: rgb(201, 201, 201);
+}
+
+.gift-icon {
+  width: 20px;
+  height: 20px;
+  margin-right: 5px;
+}
+
+.birthdays-list {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: center;
+  justify-content: start;
+}
+
+.contact-list-header {
+  display: grid;
+  grid-template-columns: 1fr 30px 30px;
+  align-items: center;
+}
+
+.contact-list-options-icon,
+.contact-list-search-icon {
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+}
+
+.contact-list-contacts-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+}
+
+.contact-list-contact {
+  display: flex;
+  height: 55px;
+  flex-direction: row;
+  align-items: center;
+  gap: 15px;
+  padding-left: 5px;
+}
+
+.contact-list-contact:hover {
+  background-color: rgb(49, 49, 49);
+  border-radius: 10px;
+}
+
+.contact-list-contact img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.contact-list-name {
+  color: white;
+  font-weight: 600;
+}
+
+.contact-list:hover {
+  overflow: auto;
+}
+
+
+.contact-list::-webkit-scrollbar {
+  width: 8px;
+}
+
+/* Track */
+.contact-list::-webkit-scrollbar-track {
+  background: rgb(28, 30, 33);
+}
+
+/* Handle */
+.contact-list::-webkit-scrollbar-thumb {
+  background: #464646;
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+.contact-list::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}

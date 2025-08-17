@@ -1,0 +1,36 @@
+.content {
+  margin-left: 400px;
+  margin-right: 400px;
+}
+
+.sidebar {
+  position: fixed;
+  left: 0;
+  top: 66px;
+  width: 300px;
+  overflow: hidden;
+  height: calc(100vh - 66px);
+}
+
+.main-content {
+  max-width: 800px;
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.contact-list {
+  position: fixed;
+  right: 0;
+  top: 66px;
+  width: 300px;
+  overflow: hidden;
+  height: calc(100vh - 66px);
+}
+
+div {
+  font-family: Roboto, Arial;
+}
+

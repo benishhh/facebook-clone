@@ -1,0 +1,187 @@
+.navbar {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  height: 56px;
+  background-color: rgb(37 39 40);
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  border-bottom: 1px solid #303030;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.15);
+  z-index: 1000;
+}
+
+.facebook-logo-container {
+  cursor: pointer;
+}
+
+.facebook-logo {
+  width: 40px;
+}
+
+.left-section {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-left: 11px;
+  width: 300px;
+  height: 56px;
+}
+
+.search-container {
+  margin-left: 10px;
+  width: 200px;
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+.search-bar {
+  border: none;
+  border-radius: 20px;
+  padding: 10px 10px 10px 36px;
+  background-color: rgb(65, 65, 65);
+  color: white;
+}
+
+.search-bar:focus {
+  outline: rgb(0, 105, 243) 1px solid;
+  color: white;
+}
+
+.search-bar::placeholder {
+  color: rgb(179, 179, 179);
+}
+
+.search-icon {
+  left: 10px;
+  position: absolute;
+  width: 20px;
+  cursor: pointer;
+}
+
+.middle-section {
+  width: 550px;
+  height: 56px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.middle-section div {
+  padding: 5px 20px;
+  border-radius: 10px;
+  cursor: pointer;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: Arial, Helvetica, sans-serif;
+  transition: background-color 1s;
+}
+
+.home-icon-container .tooltip,
+.films-icon-container .tooltip,
+.marketplace-icon-container .tooltip,
+.groups-icon-container .tooltip,
+.games-icon-container .tooltip {
+  position: absolute;
+  bottom: -42px;
+  background-color: lightgray;
+  opacity: 0;
+  font-size: 15px;
+  padding: 4px 18px;
+  transition: opacity 1s;
+}
+
+.home-icon-container:hover .tooltip,
+.films-icon-container:hover .tooltip,
+.marketplace-icon-container:hover .tooltip,
+.groups-icon-container:hover .tooltip,
+.games-icon-container:hover .tooltip {
+  opacity: 1;
+}
+
+.right-section {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: end;
+  width: 300px;
+  height: 56px;
+  font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.middle-section img {
+  width: 30px;
+}
+
+.menu-icon-container,
+.message-icon-container,
+.notification-icon-container,
+.profile-picture-container {
+  background-color: rgb(63, 63, 63);
+  padding: 1px 1px;
+  height: 35px;
+  width: 35px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  margin-left: 10px;
+  cursor: pointer;
+  position: relative;
+}
+
+.menu-icon-container .tooltip,
+.message-icon-container .tooltip,
+.notification-icon-container .tooltip,
+.profile-picture-container .tooltip {
+  position: absolute;
+  bottom: -38px;
+  background-color: lightgray;
+  opacity: 0;
+  font-size: 15px;
+  padding: 4px 18px;
+  border-radius: 10px;
+  transition: opacity 1s;
+}
+
+.profile-picture-container .tooltip {
+  right: 2px;
+}
+
+.menu-icon-container:hover .tooltip,
+.message-icon-container:hover .tooltip,
+.notification-icon-container:hover .tooltip,
+.profile-picture-container:hover .tooltip {
+  opacity: 1;
+}
+
+.right-section img {
+  width: 18px;
+  margin: 0 12px;
+  padding-right: 1px;
+}
+
+.right-section img.profile-picture-icon {
+  width: 35px;
+  border-radius: 50%;
+}
+
+.home-icon-container:hover,
+.films-icon-container:hover,
+.games-icon-container:hover,
+.marketplace-icon-container:hover,
+.groups-icon-container:hover {
+  border-bottom: 3px solid rgb(0, 110, 255);
+  background-color: rgb(65, 65, 65);
+}
+
